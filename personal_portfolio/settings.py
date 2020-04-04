@@ -25,7 +25,7 @@ SECRET_KEY = '_fw@azu(gn$i2rbi+57@lw+(og@osa3-bs(0leo&$k(_vjdz#0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['borisro.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
