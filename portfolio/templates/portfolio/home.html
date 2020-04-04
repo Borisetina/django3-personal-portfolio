@@ -7,7 +7,15 @@
             padding: 30px;
         }
         .header{
-        margin: 30px;
+        margin-bottom: 30px;
+        height: 300px;
+        width: 100%;
+        }
+        .bobo{
+            max-height: 100%;
+            display: block;
+            max-width: 100%;
+            object-fit: contain;
         }
     </style>
 </head>
@@ -41,11 +49,7 @@
     <div class="header">
 {% load static %}
 
-
-
-
-<br>
-<img src="{% static 'portfolio/boris.jpg' %}" lenght='300'width='300'>
+<img class="bobo" src="{% static 'portfolio/boris.jpg' %}" lenght='300'width='300'>
 
 </div>
 
